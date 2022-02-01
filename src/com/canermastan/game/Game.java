@@ -36,7 +36,7 @@ public class Game {
                 txtGuess.setText("");
             }
             if (remainingRight == 0){
-                JOptionPane.showMessageDialog(null, "Game is the end. Number: " + randomNumber, "The End", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Game over. Number: " + randomNumber, "The End", JOptionPane.ERROR_MESSAGE);
                 resetGame(txtGuess, lblUpDown, lblRemainingRight);
             }
         } catch (Exception e) {
